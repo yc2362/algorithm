@@ -268,3 +268,4 @@ def execute_search(req: Optional[SearchRequest] = None):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main.py:app", host="0.0.0.0", port=8080, reload=True)
+# Cloud Build trigger migration verification, 2026-11-21.
