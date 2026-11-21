@@ -452,3 +452,4 @@ def too_large(_error):
 if __name__ == "__main__":
     # Cloud Run은 PORT 환경변수를 주입한다. 모든 네트워크 인터페이스에서 수신한다.
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "8080")))
+# Cloud Build trigger migration verification, 2026-11-21.
